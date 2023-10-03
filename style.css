@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+Html,
+body {
+    background-color: rgb(12, 12, 72);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+/* header file this coding for you */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(33, 33, 103);
+}
+
+.nav-left {
+    font-size: 1.7rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(182, 182, 255);
+    font-size: 1.1rem;
+}
+
+/* section first coding  */
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.first-section>div {
+    width: 30%;
+}
+
+.left-section {
+    font-size: 2.9rem;
+}
+
+.purple {
+    color: rgb(151, 77, 221);
+}
+
+#element {
+    color: rgb(151, 77, 221);
+}
+
+.right-section img {
+    width: 85%;
+    margin-top: 50px;
+}
+
+.right-section img:hover{
+    filter: drop-shadow(5px 5px 10px #352daa);
+}
+
+
+main hr {
+    border: o;
+    height: 1px;
+    background-color: #241da3;
+    height: 1.2px;
+    margin: 50px 100px;
+
+}
+
+/* section-section page */
+
+.section-section {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.section-section .box-line {
+    background-color: white;
+    width: 79vw;
+    height: 1.2px;
+    margin: 55px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-section .vertical-line{
+    background-color: white;
+    width: 1px;
+    height: 95px;
+}
+
+.section-section .vertical-line .img-top{
+    width: 30px;
+    margin: -35px 0 103px -14px;
+    text-align: center;
+}
+
+.section-section .vertical-line .vertical-text{
+    text-align: left;
+    margin: 0 0 0 -15px;
+}
+
+.section-section .vertical-line .vertical-text-first{
+    width: 190px;
+  margin: 5px -20px;
+  font-size: 14px;
+  color: #9595cc;
+}
+
+footer{
+    background-color: #232362;
+   height: 233px;
+}
+
+.footer{
+ display: flex;
+ padding: 23px 122px;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+
+.footer ul li{
+list-style: none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.follow{
+    margin-top: 20px;
+}
+
+footer .footer-third .follow i{
+    color: blue;
+    padding-right: 3px;
+    cursor: pointer;
+    font-family: "Font Awesome 5 Brands";
+    display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
